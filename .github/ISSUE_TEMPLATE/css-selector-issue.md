@@ -7,5 +7,6 @@ assignees: IzzaTommy
 
 ---
 
-Selector name:
-File modified:
+Adding new CSS selectors for Meeting Minutes
+
+- [ ]

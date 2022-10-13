@@ -7,5 +7,6 @@ assignees: IzzaTommy
 
 ---
 
-Feature name: 
-File modified:
+Adding new CSS features for Meeting Minutes
+
+- [ ]
