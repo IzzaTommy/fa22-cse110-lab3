@@ -3,13 +3,8 @@ body {
     background-color: hsl(192, 81%, 46%);
 }
 
-/* White (name) color to paragraph text */
-p {
-    color: white;
-}
-
-/* White (name) color to list entries */
-li {
+/* White (name) color to paragraph and list text */
+p, li {
     color: white;
 }
 
@@ -21,4 +16,42 @@ h2 {
 /* Light orange (Hex) background color to h3 */
 h3 {
     background-color: #FFBA01;
+}
+
+/* Box model with long hand notations for margin and padding */
+.boxlong {
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    border-width: 5px;
+    border-style: solid;
+    border-color: peachpuff;
+    border-radius: 10px;
+}
+
+/* Box model with short hand notations for margin and padding */
+.boxshort {
+    margin: 1px 1px 5px 1px;
+    padding: 1px 10px 1px 10px;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: peachpuff;
+    border-radius: 10px;
+}
+
+.boxauto {
+    margin: auto;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: peachpuff;
+    border-radius: 10px;
 }
