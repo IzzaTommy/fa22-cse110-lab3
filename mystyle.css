@@ -1,0 +1,24 @@
+/* Light blue (HSL) color to background of the site */
+body {
+    background-color: hsl(192, 81%, 46%);
+}
+
+/* White (name) color to paragraph text */
+p {
+    color: white;
+}
+
+/* White (name) color to list entries */
+li {
+    color: white;
+}
+
+/* Light green (RGB) background color to h2 */
+h2 {
+    background-color: rgb(144, 238, 144);
+}
+
+/* Light orange (Hex) background color to h3 */
+h3 {
+    background-color: #FFBA01;
+}
