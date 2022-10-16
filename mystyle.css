@@ -20,16 +20,22 @@ h3 {
 
 /* Box model with long hand notations for margin and padding */
 .boxlong {
-    margin-top: 1px;
-    margin-bottom: 5px;
-    margin-left: 1px;
-    margin-right: 1px;
+    /* font size */
+    font-size: 1.5em;
 
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* margins */
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+    /* padding */
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    padding-left: 10pt;
+    padding-right: 10pt;
     
+    /* border */
     border-width: 5px;
     border-style: solid;
     border-color: peachpuff;
@@ -38,18 +44,34 @@ h3 {
 
 /* Box model with short hand notations for margin and padding */
 .boxshort {
-    margin: 1px 1px 5px 1px;
-    padding: 1px 10px 1px 10px;
+    /* font size */
+    font-size: 1.5em;
+    
+    /* margins */
+    margin: 1mm 1pt 5mm 1pt;
 
+    /* padding */
+    padding: 1mm 10pt 1mm 10pt;
+
+    /* border */
     border-width: 5px;
     border-style: solid;
     border-color: peachpuff;
     border-radius: 10px;
 }
 
+/* Box model with auto notations for margin */
 .boxauto {
+    /* font size */
+    font-size: 1.5em;
+    
+    /* margins */
     margin: auto;
 
+    /* padding */
+    padding: 1mm 10pt 1mm 10pt;
+
+    /* border */
     border-width: 5px;
     border-style: solid;
     border-color: peachpuff;
