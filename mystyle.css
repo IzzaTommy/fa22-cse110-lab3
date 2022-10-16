@@ -3,13 +3,8 @@ body {
     background-color: hsl(192, 81%, 46%);
 }
 
-/* White (name) color to paragraph text */
-p {
-    color: white;
-}
-
-/* White (name) color to list entries */
-li {
+/* White (name) color to paragraph and list text */
+p, li {
     color: white;
 }
 
@@ -21,4 +16,64 @@ h2 {
 /* Light orange (Hex) background color to h3 */
 h3 {
     background-color: #FFBA01;
+}
+
+/* Box model with long hand notations for margin and padding */
+.boxlong {
+    /* font size */
+    font-size: 1.5em;
+
+    /* margins */
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+    /* padding */
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    
+    /* border */
+    border-width: 5px;
+    border-style: solid;
+    border-color: peachpuff;
+    border-radius: 10px;
+}
+
+/* Box model with short hand notations for margin and padding */
+.boxshort {
+    /* font size */
+    font-size: 1.5em;
+    
+    /* margins */
+    margin: 1mm 1pt 5mm 1pt;
+
+    /* padding */
+    padding: 1mm 10pt 1mm 10pt;
+
+    /* border */
+    border-width: 5px;
+    border-style: solid;
+    border-color: peachpuff;
+    border-radius: 10px;
+}
+
+/* Box model with auto notations for margin */
+.boxauto {
+    /* font size */
+    font-size: 1.5em;
+    
+    /* margins */
+    margin: auto;
+
+    /* padding */
+    padding: 1mm 10pt 1mm 10pt;
+
+    /* border */
+    border-width: 5px;
+    border-style: solid;
+    border-color: peachpuff;
+    border-radius: 10px;
 }
