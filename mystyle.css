@@ -3,6 +3,12 @@
     src: url("Montserrat-VariableFont_wght.ttf");
 }
 
+@media (min-width: 1200px){
+    h1 {
+        font-size: 3rem;
+    }
+}
+
 html {
     font-family: "Montserrat";
 }
@@ -74,7 +80,7 @@ h3 {
     display: inline-block;
     vertical-align: middle;
 
-    height: 200px;
+    height: 250px;
     width: 550px;
     min-width: 500px;
     max-width: 550px;
