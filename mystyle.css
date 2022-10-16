@@ -38,10 +38,17 @@ h3 {
     padding-right: 10pt;
     
     /* border */
-    border-width: 5px;
+    border-width: 10px;
     border-style: solid;
     border-color: peachpuff;
     border-radius: 10px;
+
+    display: inline-block;
+
+    height: 200px;
+    width: 550px;
+    max-height: 200px;
+    max-width: 550px;
 }
 
 /* Box model with short hand notations for margin and padding */
@@ -56,10 +63,14 @@ h3 {
     padding: 1mm 10pt 1mm 10pt;
 
     /* border */
-    border-width: 5px;
+    border-width: 10px;
     border-style: solid;
     border-color: peachpuff;
     border-radius: 10px;
+
+    display: block;
+
+
 }
 
 /* Box model with auto notations for margin */
@@ -74,8 +85,13 @@ h3 {
     padding: 1mm 10pt 1mm 10pt;
 
     /* border */
-    border-width: 5px;
+    border-width: 10px;
     border-style: solid;
     border-color: peachpuff;
     border-radius: 10px;
+
+    height: 200px;
+    width: 550px;
+    max-height: 200px;
+    max-width: 550px;
 }
