@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-VariableFont_wght.ttf");
+}
+
+html {
+    font-family: "Montserrat";
+}
 /* Light blue (HSL) color to background of the site */
 body {
     background-color: hsl(192, 81%, 46%);
@@ -14,10 +22,6 @@ p, li {
 .center {
     text-align: center;
 }
-
-h1 {
-    text-align: center;
-}   
 
 h1:active {
     color: yellow;
@@ -39,7 +43,6 @@ h3 {
 
 /* Aligning the date to the center */
 .date {
-    text-align: center;
     font-size: 2.5em;
     position: sticky;
     top: 0;
