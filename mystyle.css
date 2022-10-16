@@ -6,6 +6,8 @@ body {
 /* White (name) color to paragraph and list text */
 p, li {
     color: white;
+    text-decoration: underline;
+    text-align: left;
 }
 
 /* Light green (RGB) background color to h2 */
