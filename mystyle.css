@@ -1,3 +1,40 @@
+/* Setting the font to Montserrat */
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-VariableFont_wght.ttf");
+}
+
+html {
+    font-family: "Montserrat";
+}
+
+/* Media query to make the title larger based on width*/
+@media (min-width: 1200px){
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+/* Changing the color of title to yellow when clicked */
+h1:active {
+    color: yellow;
+}
+
+/* Light green (RGB) background color to h2 */
+h2 {
+    background-color: rgb(144, 238, 144);
+}
+
+/* Changing the color of sections to gray when hovered */
+h3:hover {
+    color: gray;
+}
+
+/* Light orange (Hex) background color to h3 */
+h3 {
+    background-color: #FFBA01;
+}
+
 /* Light blue (HSL) color to background of the site */
 body {
     background-color: hsl(192, 81%, 46%);
@@ -15,27 +52,8 @@ p, li {
     text-align: center;
 }
 
-nav {
-    text-align: center;
-}
-
-h1 {
-    text-align: center;
-}   
-
-/* Light green (RGB) background color to h2 */
-h2 {
-    background-color: rgb(144, 238, 144);
-}
-
-/* Light orange (Hex) background color to h3 */
-h3 {
-    background-color: #FFBA01;
-}
-
 /* Aligning the date to the center */
 .date {
-    text-align: center;
     font-size: 2.5em;
     position: sticky;
     top: 0;
@@ -64,17 +82,37 @@ h3 {
     border-color: peachpuff;
     border-radius: 10px;
 
+    /* display */
     display: inline-block;
     vertical-align: middle;
 
-    height: 200px;
+    /* setting the dimensions of the box */
+    height: 250px;
     width: 550px;
     min-width: 500px;
     max-width: 550px;
 
+    /* setting position and text alignment */
     position: static;
-
     text-align: center;
+}
+
+/* flexbox layout with columns of content*/
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    column-gap: 10px;
+}
+
+/* grid layout with centered elements*/
+.grid {
+    display: grid;
+    justify-items: center;
+    align-self:start;
+    row-gap: 5px;
+    column-gap: 5px;
 }
 
 /* Box model with short hand notations for margin and padding */
@@ -95,7 +133,6 @@ h3 {
     border-radius: 10px;
 
     display: block;
-
     text-align: center;
 }
 
