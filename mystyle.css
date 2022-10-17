@@ -15,6 +15,16 @@ html {
     }
 }
 
+/* Testing adjacent sibling combinator */
+hr + p {
+    color: black;
+}
+
+/* Testing general sibling combinator */
+main ~ h2 {
+    color: white;
+}
+
 /* Testing attribute selector on the options for an input field*/
 option[value] {
     color: red;
@@ -26,7 +36,7 @@ h1:active {
 }
 
 /* Light green (RGB) background color to h2 */
-h2 {
+html h2 {
     background-color: rgb(144, 238, 144);
 }
 
@@ -36,7 +46,7 @@ h3:hover {
 }
 
 /* Light orange (Hex) background color to h3 */
-h3 {
+section > h3 {
     background-color: #FFBA01;
 }
 
@@ -159,4 +169,9 @@ p, li {
     border-radius: 10px;
 
     text-align: center;
+}
+
+/* for combining two selectors (element.class) */
+p.summary {
+    color: black;
 }
