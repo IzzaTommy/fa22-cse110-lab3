@@ -15,6 +15,11 @@ html {
     }
 }
 
+/* Testing attribute selector on the options for an input field*/
+option[value] {
+    color: red;
+}
+
 /* Changing the color of title to yellow when clicked */
 h1:active {
     color: yellow;
@@ -60,7 +65,7 @@ p, li {
 }
 
 /* Box model with long hand notations for margin and padding */
-.boxlong {
+*.boxlong {
     /* font size */
     font-size: 1.5em;
 
@@ -100,14 +105,14 @@ p, li {
 /* flexbox layout with columns of content*/
 .flex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: flex-start;
     column-gap: 10px;
 }
 
 /* grid layout with centered elements*/
-.grid {
+#grid {
     display: grid;
     justify-items: center;
     align-self:start;
